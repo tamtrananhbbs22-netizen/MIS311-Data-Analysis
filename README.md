@@ -70,17 +70,43 @@ The corrected categories improved data consistency and ensured that products wer
 After completing the cleaning and transformation process, the dataset contained 250 records and was ready for further statistical analysis.
 ## 4. Descriptive Statistics
 
-Descriptive statistics were used to summarize the numerical variables in the cleaned supermarket sales dataset. This analysis focused on Quantity and Total Price to understand purchasing patterns and transaction values.
+Descriptive statistics were used to summarize the distribution and characteristics of Quantity and Total Price across 250 records.
 
-### 4.1 Quantity
+### 4.1 Descriptive Statistics for Quantity
 
-The Quantity variable represents the number of products purchased in each transaction. Measures such as mean, median, standard deviation, minimum, and maximum were calculated to understand product purchasing patterns.
-<img width="317" height="382" alt="image" src="https://github.com/user-attachments/assets/cf1c0e5a-2cbd-4663-a37b-c969fb33ea8c" />
+| Statistic | Value |
+|---|---:|
+| Mean | 10.62 |
+| Median | 11 |
+| Mode | 2 |
+| Standard Deviation | 5.99 |
+| Minimum | 1 |
+| Maximum | 20 |
+| Range | 19 |
+| Count | 250 |
 
-### 4.2 Total Price
+**Interpretation:**
 
-The Total Price variable represents the total value of each sales transaction. Descriptive statistics were calculated to examine transaction values and understand customer spending patterns.
-<img width="367" height="375" alt="image" src="https://github.com/user-attachments/assets/9924ca9a-bfc2-4530-8349-cb67b1d01eef" />
+The average quantity sold per transaction was approximately 10.62 units, while the median was 11 units. The standard deviation of 5.99 indicates some variation in the quantity sold across transactions. The quantity ranged from 1 to 20 units.
+
+### 4.2 Descriptive Statistics for Total Price
+
+| Statistic | Value |
+|---|---:|
+| Mean | 124.19 |
+| Median | 95.43 |
+| Mode | 212.82 |
+| Standard Deviation | 102.98 |
+| Minimum | 2.18 |
+| Maximum | 427.14 |
+| Range | 424.96 |
+| Sum | 31,046.28 |
+| Count | 250 |
+
+**Interpretation:**
+
+The average total price per transaction was $124.19, while the median was $95.43. The standard deviation of 102.98 indicates considerable variation in transaction values. The difference between the mean and median suggests that some higher-value transactions may influence the average.
+
 ## 5. Data Analysis and Business Insights
 
 After completing data cleaning and descriptive statistical analysis, further analysis was conducted to examine supermarket sales performance across different cities and branches.
@@ -103,10 +129,12 @@ Branch A achieved total sales of $22,097.47, significantly higher than Branch B,
 
 **Business Insight:** Branch A is the stronger contributor to overall revenue. The business could investigate the factors behind its performance and identify opportunities to improve sales at Branch B.
 ### 5.3 Total Quantity Sold by Branch
-<img width="1170" height="415" alt="image" src="https://github.com/user-attachments/assets/e1675e62-2ae5-4f4e-b9a7-1058d70ead3e" />
 
-This analysis compares the total quantity of products sold by Branch A and Branch B to evaluate their sales volume.
+The analysis shows that Branch A sold 1,808 units, while Branch B sold 846 units, with a total of 2,654 units across both branches.
+<img width="1152" height="452" alt="image" src="https://github.com/user-attachments/assets/67816299-2d66-4740-84ff-053fe54bbd72" />
 
-The results help identify which branch sold a larger number of products and provide additional information about differences in branch performance.
+**Business Insight:**
+
+Branch A recorded a significantly higher sales quantity than Branch B, accounting for approximately 68.1% of total units sold. This indicates that Branch A had a stronger sales volume during the analyzed period. The business should further investigate the factors behind this difference and consider applying successful practices from Branch A to improve Branch B's performance.
 
 **Business Insight:** Comparing total quantity sold with total sales revenue can help the business understand whether a branch generates higher revenue because it sells more products or because its transactions have higher values.
